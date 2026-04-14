@@ -1,0 +1,22 @@
+{
+  "name": "remindme-backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "next build",
+    "check": "tsc --noEmit",
+    "vercel-build": "next build"
+  },
+  "dependencies": {
+    "expo-server-sdk": "^4.0.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.6.3"
+  }
+}
